@@ -7,8 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://surajkelaginamani.github.io/Employee_Manegment_System", 
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
