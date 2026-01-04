@@ -47,65 +47,10 @@ const employees = [
   },
 
   {
-    name: "Priya Verma",
-    email: "priya.verma@company.com",
-    password: "priya@123",
-
-    taskCount: {
-      total: 3,
-      active: 1,
-      newTask: 1,
-      completed: 1,
-      failed: 1
-    },
-
-    tasks: [
-      {
-        active: true,
-        newTask: true,
-        completed: false,
-        failed: false,
-        title: "Test Signup Flow",
-        description: "Perform manual testing of signup process",
-        date: "2025-01-12",
-        category: "Testing"
-      },
-      {
-        active: false,
-        newTask: false,
-        completed: true,
-        failed: false,
-        title: "Write Test Cases",
-        description: "Prepare test cases for login module",
-        date: "2025-01-08",
-        category: "Testing"
-      },
-      {
-        active: false,
-        newTask: false,
-        completed: false,
-        failed: true,
-        title: "Automation Script",
-        description: "Create automation script for form validation",
-        date: "2025-01-06",
-        category: "Automation"
-      }
-    ]
-  },
-
-  {
-    name: "Amit Patil",
-    email: "amit.patil@company.com",
-    password: "amit@123",
-
-    taskCount: {
-      total: 3,
-      active: 1,  
-      newTask: 1,
-      completed: 1,
-      failed: 1
-    },
-
+    name: "Madhumanjiri Bankar",
+    email: "madhumanjiri.bankar@company.com",
+    password: "madhu@123",
+    taskCount: { total: 1, active: 1, newTask: 1, completed: 0, failed: 0 },
     tasks: [
       {
         active: true,
@@ -113,29 +58,95 @@ const employees = [
         completed: false,
         failed: false,
         title: "Design Dashboard",
-        description: "Create admin dashboard UI layout",
+        description: "Create dashboard UI using Tailwind",
         date: "2025-01-11",
-        category: "UI/UX"
+        category: "Design"
+      }
+    ]
+  },
+
+  {
+    name: "Ayush Solanke",
+    email: "ayush.solanke@company.com",
+    password: "ayush@123",
+    taskCount: { total: 1, active: 0, newTask: 0, completed: 1, failed: 0 },
+    tasks: [
+      {
+        active: false,
+        newTask: false,
+        completed: true,
+        failed: false,
+        title: "Setup Git Repo",
+        description: "Initialize project repository",
+        date: "2025-01-08",
+        category: "Setup"
+      }
+    ]
+  },
+
+  {
+    name: "Om Jaghdhane",
+    email: "om.jaghdhane@company.com",
+    password: "om@123",
+    taskCount: { total: 1, active: 0, newTask: 0, completed: 0, failed: 1 },
+    tasks: [
+      {
+        active: false,
+        newTask: false,
+        completed: false,
+        failed: true,
+        title: "Database Schema",
+        description: "Design initial database schema",
+        date: "2025-01-06",
+        category: "Database"
+      }
+    ]
+  },
+
+  {
+    name: "Sufi Shaikh",
+    email: "sufi.shaikh@company.com",
+    password: "sufi@123",
+    taskCount: { total: 1, active: 1, newTask: 1, completed: 0, failed: 0 },
+    tasks: [
+      {
+        active: true,
+        newTask: true,
+        completed: false,
+        failed: false,
+        title: "Write API Docs",
+        description: "Prepare API documentation",
+        date: "2025-01-12",
+        category: "Documentation"
+      }
+    ]
+  },
+
+  {
+    name: "Suraj",
+    email: "suraj@company.com",
+    password: "suraj@123",
+    taskCount: { total: 2, active: 1, newTask: 1, completed: 1, failed: 0 },
+    tasks: [
+      {
+        active: true,
+        newTask: true,
+        completed: false,
+        failed: false,
+        title: "Employee Dashboard",
+        description: "Build employee dashboard UI",
+        date: "2025-01-13",
+        category: "Development"
       },
       {
         active: false,
         newTask: false,
         completed: true,
         failed: false,
-        title: "Create Wireframes",
-        description: "Design wireframes for employee panel",
+        title: "Auth Context Setup",
+        description: "Setup AuthContext and localStorage",
         date: "2025-01-07",
-        category: "UI/UX"
-      },
-      {
-        active: false,
-        newTask: false,
-        completed: false,
-        failed: true,
-        title: "User Research",
-        description: "Conduct user research interviews",
-        date: "2025-01-04",
-        category: "Research"
+        category: "Logic"
       }
     ]
   }
